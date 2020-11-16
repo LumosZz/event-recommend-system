@@ -341,7 +341,7 @@
      *            The item data (JSON object)
      */
     function addItem(itemList, item) {
-        var item_id = item.item_id;
+        var item_id = item.itemId;
 
         // create the <li> tag and specify the id and class attributes
         var li = $('li', {
